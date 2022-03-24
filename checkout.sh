@@ -16,7 +16,7 @@ fi
 cd "$PREBID_DIR"
 
 if [[ ! -d working_master ]]; then
-  git clone https://github.com/prebid/Prebid.js.git working_master
+  git clone https://github.com/aclrys/Prebid.js.git working_master
 fi
 
 cd working_master
